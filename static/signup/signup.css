@@ -1,0 +1,166 @@
+
+body{
+    display: flex;
+    justify-content: left;
+    flex-direction: column;
+    position: relative;
+    font-family: 'Inter', sans-serif;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+.box-overlay {
+/* position: relative; */
+margin-top: 30px;
+margin-left:139px;
+border: 0px solid #0e0101;
+height: 642px;
+width:547px;
+display: flex;
+flex-direction: column;
+align-items: center;
+background: #FFFFFF;
+box-shadow: 0px 16px 24px rgba(17, 33, 48, 0.1);
+border-radius: 30px;
+
+}
+.bg{
+    margin-top:71px;
+    margin-left:153px;
+}
+.girl{
+    position : absolute;
+    width: 301px;
+    height: 381px;
+    left: 980px;
+    top: 306px;
+}
+.grad{
+    position: absolute; 
+    top: 14%; 
+    left: 34%;
+} 
+.overlay {
+    z-index: 9;
+    margin: 30px;
+    background: #009938;
+  }
+
+  .uname input{
+    display: flex;
+    margin-bottom: 5px;
+    border: 1px solid #b9b9b9;
+    border-radius: 5px;
+    padding-left: 15px;
+    margin-top: 5px;
+    width: 386px;
+    height: 42px;
+    display: block;
+}
+.user input{
+    border: 1px solid #b9b9b9;
+    border-radius: 5px;
+    padding-left: 15px;
+    margin-top: 5px;
+    width: 386px;
+    height: 42px;
+    display: block;
+}
+
+.pass{
+    margin-top: 23px;
+}
+.pass input{
+    border: 1px solid #b9b9b9;
+    border-radius: 5px;
+    padding-left: 15px;
+    width: 386px;
+    height: 42px;
+    display: block;
+}
+.login-btn{
+    margin-top: 23px;
+
+}
+.login-btn button{
+    border: 1px solid #b9b9b9;
+    border-radius: 5px;
+    width: 386px;
+    height: 42px;
+    background-image:linear-gradient(#ffe84e,#ffe743);
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    transition-duration: 0.4s;
+}
+
+.login-btn button:hover {
+  background-color: #008CBA;
+  color: white;
+}
+.or{
+   text-align: center;
+   color: #9b9b9b;
+}
+.login-with-google button{
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+    width: 386px;
+    height: 50px;
+
+    background: white;
+    border: 1px solid rgba(255, 255, 255, 0.25);
+    box-shadow: 0px 8px 24px rgba(156, 136, 136, 0.15);
+    border-radius: 8px; 
+    transition-duration: 0.4s; 
+    border: 1px solid #d3d3d3;
+
+    font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 19px;
+letter-spacing: -0.04em;
+}
+.login-with-google button:hover {
+  color: #008CBA;
+  border-color: rgba(81, 0, 255, 0.485); 
+ 
+}
+.login-with-google button img{
+    width:30px;
+    height: 30px;
+    margin-right: 12px;
+}
+.login-with-google{
+    margin-bottom: 55px;
+}
+.already{
+    text-align: center;
+    position: absolute;
+    top : 90%;
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 400px;
+font-size: 14px;
+line-height: 20px;
+
+    
+} 
+.uf{
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+} 
+::placeholder {
+    color: rgb(209, 209, 209);
+    opacity: 1; 
+    font-weight: 400px;
+font-size: 14px;
+  }

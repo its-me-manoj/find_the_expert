@@ -1,0 +1,5 @@
+<div class="navbar-collapse collapse"  >
+          <ul class="nav navbar-nav navbar-right">
+               <li><a href="#" id="logout" style="color:red;" >Log Out</a></li>
+          </ul>
+      </div>

@@ -1,0 +1,148 @@
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+    font-family: 'Inter', sans-serif;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+.box-overlay {
+ position: relative; 
+margin-top: 30px;
+
+border: 0px solid #0e0101;
+height: 1050px;
+width:547px;
+display: flex;
+flex-direction: column;
+align-items: center;
+background: #FFFFFF;
+box-shadow: 0px 16px 24px rgba(17, 33, 48, 0.1);
+border-radius: 30px; 
+margin-bottom: 20px; 
+margin-top: 20px;
+
+}
+
+.overlay {
+    z-index: 9;
+    margin: 30px;
+    background: #009938;
+  }
+
+  .uname input{
+    border: 1px solid #b9b9b9;
+    border-radius: 5px;
+    padding-left: 15px;
+    width: 386px;
+    height: 42px;
+    display: block;
+}
+.user input{ 
+
+    border: 1px solid #b9b9b9;
+    border-radius: 5px;
+    padding-left: 15px;
+   
+    width: 386px;
+    height: 42px;
+    display: block;
+}
+
+.ed input{
+    border: 1px solid #b9b9b9;
+    border-radius: 5px;
+    padding-left: 15px;
+    width: 386px;
+    height: 42px;
+    display: block; 
+}
+
+.desc input{
+    border: 1px solid #b9b9b9;
+    border-radius: 5px;
+    padding-left: 10px;
+    /* margin-top: 20px; */
+    width: 386px;
+    height: 42px;
+    display: block;
+}
+
+.yt_link input{
+    border: 1px solid #b9b9b9;
+    border-radius: 5px;
+    padding-left: 15px;
+    margin-top: 1rem;
+    width: 386px;
+    height: 42px;
+    display: block;
+} 
+#dec{
+    margin-top: 20px;
+}
+.pass{
+    margin-top: 23px;
+}
+.pass input{
+    border: 1px solid #b9b9b9;
+    border-radius: 5px;
+    padding-left: 15px;
+    width: 386px;
+    height: 42px;
+    display: block;
+}
+.login-btn{
+    margin-top: 23px;
+
+}
+.login-btn button{
+    border: 1px solid #b9b9b9;
+    border-radius: 5px;
+    width: 386px;
+    height: 42px;
+    background-image:linear-gradient(#ffe84e,#ffe743);
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    transition-duration: 0.4s;
+}
+
+.login-btn button:hover {
+  background-color: #008CBA;
+  color: white;
+}
+
+.uf{
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+} 
+::placeholder {
+    color: rgb(209, 209, 209);
+    opacity: 1; 
+    font-weight: 400px;
+    font-size: 14px;
+  }  
+  input {
+    margin-top: 1rem;
+}
+  input::file-selector-button {
+    font-weight: bold;
+    color: rgb(0, 0, 0);
+    padding: 0.5em;
+    border: thin solid rgb(70, 70, 70);
+    border-radius: 3px; 
+    width: 320px; 
+    height: 40px; 
+    background-color: whitesmoke;
+} 
+#education{
+    text-transform: capitalize;
+}
